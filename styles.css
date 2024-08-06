@@ -197,7 +197,9 @@ nav .nav-links li i {
 }
 
 .ecosystem .rightEcosystem div a:hover,
-.varsity .rightVarsity a:hover, .pricing .leftPricing a:hover {
+.ecosystem .leftEcosystem a:hover,
+.varsity .rightVarsity a:hover,
+.pricing .leftPricing a:hover {
   color: black;
 }
 
@@ -295,9 +297,9 @@ footer .upperPartFooter {
 }
 
 footer .upperPartFooter .social-profile {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 footer .upperPartFooter img {
@@ -306,22 +308,22 @@ footer .upperPartFooter img {
 }
 
 footer .upperPartFooter .social-profile .social-icon {
-    display: flex;
-    gap: 20px;
-    font-size: 20px;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
 }
 
 footer .upperPartFooter .social-profile .icon1 {
-    border-bottom: 1px solid #e6e5e5;
-    padding-bottom: 10px;
+  border-bottom: 1px solid #e6e5e5;
+  padding-bottom: 10px;
 }
 
 footer .upperPartFooter .social-profile .social-icon a {
-    color: #666666;
+  color: #666666;
 }
 
 footer .upperPartFooter .social-profile .social-icon a:hover {
-    color: #387ed1;
+  color: #387ed1;
 }
 
 footer .upperPartFooter .footer-link {
@@ -347,7 +349,8 @@ footer .upperPartFooter .footer-link div a {
   font-weight: 500;
 }
 
-footer .upperPartFooter .footer-link div a:hover, footer .lowerPartFooter .footer-link a:hover {
+footer .upperPartFooter .footer-link div a:hover,
+footer .lowerPartFooter .footer-link a:hover {
   color: #387ed1;
 }
 
@@ -364,15 +367,15 @@ footer .lowerPartFooter a:hover {
 }
 
 footer .lowerPartFooter .footer-link {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
 }
 
 footer .lowerPartFooter .footer-link a {
-    color: #9b9b9b;
-    font-size: 14px;
-    font-weight: 500;
+  color: #9b9b9b;
+  font-size: 14px;
+  font-weight: 500;
 }
